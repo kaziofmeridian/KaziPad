@@ -47,7 +47,7 @@ Made With Autodesk Fusion 360
 
 ## Preset Functions:
 
-(My custom firmware comes with this included, but feel free to change it to better meet your needs!)
+(My custom firmware comes with these settings included, but feel free to change it to better meet your needs!)
 
 ### Rotary Encoder:
 
@@ -58,19 +58,19 @@ Made With Autodesk Fusion 360
 
 ### Keys Base Layer:
 
-|Col1 | Col2 | Col3|
-|----|----|----|
-|Ctrl + C | Ctrl + V | Ctrl + X |
-|Ctrl + A | Ctrl + F | Ctrl + Z |
-|Left Arrow| Up Arrow | Right Arrow|
+| |Col 1 | Col 2 | Col 3|
+|----|----|----|----|
+|Row 1 | Ctrl + C | Ctrl + V | Ctrl + X |
+|Row 2| Ctrl + A | Ctrl + F | Ctrl + Z |
+|Row 3 | Left Arrow| Up Arrow | Right Arrow|
 
 ### Keys Numpad Layer:
 
-|Col1 | Col2 | Col3|
-|----|----|----|
-|7 | 8 | 9 |
-|4 | 5 | 6 |
-|1 | 2 | 3 |
+| |Col 1 | Col 2 | Col 3|
+|----|----|----|----|
+|Row 1| 7 | 8 | 9 |
+|Row 2| 4 | 5 | 6 |
+|Row 3| 1 | 2 | 3 |
 
 ## How To Use:
 - Download CircuitPython and KMK onto your Seeed XIAO RP2040
@@ -79,9 +79,9 @@ Made With Autodesk Fusion 360
 
 ## How Does It Work?
 
-- PCB and Schematic - The keys are wired in a 3x3 matrix which limits the amount of pins used in order to save space for for other components. After all the connections were established, I began laid each component out and wired them. The final **KaziPad** PCB that you see today is actually V4 of the PCB due to my wish to make it smaller and more aesthetically pleasing. It was designed with **Kicad**, an entirely free PCB designing program.
-- Case - The Case is made up of two parts, a top plate, and a bottom plate. The bottom plate is where the PCB will sit, so the dimensions had to accomodate that. Additionally, each key, the OLED display, and the microcontroller are meant to be visible from the top plate, which meant I spent countless time measuring distances and ensuring accuracy. It was designed with **Autodesk Fusion 360**, a free 3D designing software for noncommercial use.
-- Firmware - The KMK firmware was created based off of the [KMK Docs](https://github.com/KMKfw/kmk_firmware/tree/main), however, I was unable to test it since I do not have the physical **KaziPad** yet.
+- **PCB and Schematic** - The keys are wired in a 3x3 matrix which limits the amount of pins used in order to save space for for other components. After all the connections were established, I began laid each component out and wired them. The final **KaziPad** PCB that you see today is actually V4 of the PCB due to my wish to make it smaller and more aesthetically pleasing. It was designed with **Kicad**, a entirely free PCB designing program.
+- **Case** - The Case is made up of two parts, a top plate, and a bottom plate. The bottom plate is where the PCB will sit, so the dimensions had to accomodate that. Additionally, each key, the OLED display, and the microcontroller are meant to be visible from the top plate, which meant I spent countless time measuring distances and ensuring accuracy. It was designed with **Autodesk Fusion 360**, a free 3D designing software for noncommercial use.
+- **Firmware** - The **KMK firmware** was created based off of the [KMK Docs](https://github.com/KMKfw/kmk_firmware/tree/main), however, I was unable to test it since I do not have the physical **KaziPad** yet.
 
 ## What I Learned:
 - How to design start to finish my own project
@@ -90,8 +90,6 @@ Made With Autodesk Fusion 360
 - How to design 3D objects from scratch
 - How to interpret Docs effectively in order to turn my knowledge into code
 - How to ask for help when I need it from my Hack Club Community
-
-The **KaziPad** was created for [Stardance](https://stardance.hackclub.com/home), a free online summer program.
 
 ## BOM
 (A fully itemized list of all the components necessary to make a **KaziPad**!)
@@ -112,6 +110,13 @@ The **KaziPad** was created for [Stardance](https://stardance.hackclub.com/home)
 
 
 
-## My Takeaways
+## My Notes and Takeaways
+The **KaziPad** was created for [Stardance](https://stardance.hackclub.com/home), a free online summer program and a branch of [Hack Club](https://hackclub.com/).
 
-This is the first ever project I've ever fully designed, and I am very proud of it. I learned a lot of new skills that are applicable to just about everything I will do in the future.
+Additionally, this is the first ever project I've ever fully designed, and I am very proud of it. I learned a lot of new skills that are applicable to just about everything I will do in the future.
+
+This project involved *zero* AI usage, and was made by @kaziofmeridian.
+
+I began creating it on 6/5/26 and finished on 6/8/26. Once my project is approved by Hack Club, I will build my physical board, and update you all.
+
+## Thank you for reading!
